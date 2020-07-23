@@ -161,6 +161,12 @@ button:hover{
     align-content: normal;
     border-radius: 5%;
     border: 2px solid #FDBD17;
+    
+}
+.person-image:hover{
+    border-radius: 0%;
+    border: 5px solid #66724C;
+    transition: 1s;
 }
 h3 {
     font-weight: 800;
