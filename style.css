@@ -60,21 +60,25 @@ nav{
     width:100%;
     display:flex;
     justify-content:space-around;
-    align-items: center;
+    align-items: flex-end;
     margin-bottom: 0.5rem;
-    background-color: white;
+    /* background-color: white; */
+    border-bottom: 0.3rem solid #FDBD17;
     
 }
 
 nav a{
-    color: #66724C;
-}
+    color: #66724C;}
 nav a:hover {
     font-weight: 600;
 }
 .logo{
-    /* border: 1px solid #66724C; */
-    margin-top: 20%;
+    font-weight: 800;
+}
+
+.logo-name {
+    display: none;
+    font-weight: 800;
 }
 /*Title Section Styles*/
 .title-container{
@@ -130,4 +134,17 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+
+@media (min-width: 800px) {
+    nav {
+        justify-content: space-around;
+    }
+    .logo {
+        display:none;
+    }
+    .logo-name {
+        display: flex;
+       
+    }
 }
