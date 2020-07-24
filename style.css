@@ -92,6 +92,8 @@ nav a:hover {
     font-weight: 800;
 }
 
+/* button styles */
+
 button {
     padding:0.4rem 1%;
     font-size: 1.8rem;
@@ -130,10 +132,10 @@ button:hover{
     border: 5px solid #FDBD17;
     border-radius: 2rem;
 }	
+.title-container h2 {
+    font-size: 3rem;
+}
 
-/* .title-container div:hover {	
-    opacity: 80%;	
-}	 */
 .hero-image {
     display: none;
     border-radius: 2rem;
@@ -159,6 +161,11 @@ button:hover{
 
 /* Text and about styles */
 
+.alt-h1 {
+    margin: 5% 10%;
+    font-size: 5rem;
+    color:  #66724C;
+}
 .frontpage-container {
     display: flex;
     flex-direction: column;
@@ -346,4 +353,17 @@ h4 {
         width: 25%;
         margin: 2rem;
     }
+
+    .intro-text {
+        margin-top: -1rem;
+        font-size: 2rem;
+    }
+    .frontpage-blurb {
+        font-size: 2rem;
+    }
+    .title-container h2 {
+        font-size: 4rem;
+    }
+    
 }
+
