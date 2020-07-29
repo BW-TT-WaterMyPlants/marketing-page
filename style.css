@@ -272,7 +272,6 @@ h4 {
         margin-top: 1rem;
         color: white;
         font-size: 5rem;
-
     }
  
     .title-container {
@@ -306,7 +305,6 @@ h4 {
         width: 80%;
         margin: 2% 10%;
         padding: 2% 0%;
-   
         justify-content: space-evenly;
         align-content: center;
     }
@@ -353,12 +351,10 @@ h4 {
         margin: 0% 2%;
     }
     .video-blurb h2 {
-        
         font-size: 2.5rem;
     }
     .video-blurb p {
         font-size: 1.7rem;
-
     }
         
     .people-container {
